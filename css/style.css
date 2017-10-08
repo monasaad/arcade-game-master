@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+h1 {
+font-family: 'IM Fell Great Primer', serif;
+
+}
