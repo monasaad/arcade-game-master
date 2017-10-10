@@ -60,28 +60,38 @@ Player.prototype.update = function() {
         if(score==1){
         alert("The princess needs to pass more 4 fields🏃");
         document.getElementById('Score').innerHTML = score;
-        player.reset();
+        this.reset();
+        /*this.x = 200;
+        this.y = 320;*/
         }
         else if  (score==2){
         alert("The princess needs to pass more 3 fields🏃");
             document.getElementById('Score').innerHTML = score;
-            player.reset();
+        this.reset();
+        /*this.x = 200;
+        this.y = 320;*/        
         } 
          else if  (score==3){
         alert("The princess needs to pass more 2 fields🏃");
             document.getElementById('Score').innerHTML = score;
-            player.reset();
+        this.reset();
+        /*this.x = 200;
+        this.y = 320;*/
         } 
         else if  (score==4){
         alert("The princess needs to pass more 1 field🏃");
             document.getElementById('Score').innerHTML = score;
-            player.reset();
+        this.reset();
+        /*this.x = 200;
+        this.y = 320;*/
         } 
         else if  (score==5){
             alert("King🤴: Thanks for helping my gurl!");
             document.getElementById('Score').innerHTML = score;
-            player.reset();
-        }   
+            this.reset();
+        /*this.x = 200;
+        this.y = 320;*/
+        } 
     }
 };
 
